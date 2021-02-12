@@ -1,0 +1,8 @@
+[
+  {"id": 1, "title": "The Witcher 3- Wild Hunt", "price": 37.99, "inventory": 2, "img": "witcher"},
+  {"id": 2, "title": "Hollow Knight", "price": 13.99, "inventory": 5, "img": "hollow_knight"},
+  {"id": 3, "title": "Undertale", "price": 13.99, "inventory": 10, "img": "undertale"},
+  {"id": 4, "title": "Animal Crossing New Horizons", "price": 50.00, "inventory": 10, "img": "acnh"},
+  {"id": 5, "title": "The Legend of Zelda -  Breath of the Wild", "price": 65.00, "inventory": 7, "img": "zelda"},
+  {"id": 6, "title": "Monster Hunter Generations Ultimate", "price": 45.00, "inventory": 12, "img": "monter_hunter"}
+]
