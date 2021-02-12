@@ -59,8 +59,8 @@ const mapDispatchToProps = (dispatch) => {
       dispatch({ type: "REMOVE_CART", id: id, item: product });
       dispatch({ type: "ADD_INVENTORY", id: id, item: product });
     },
-    checkout: () => {
-      dispatch({ type: "REMOVE_ALL" });
+    checkout: (id) => {
+      dispatch({ type: "CHECKOUT", id: id });
     },
     remove_all: (id, item, qtt) => {
       dispatch({ type: "RETURN_ITEMS", id: id, item: item, qtt: qtt });

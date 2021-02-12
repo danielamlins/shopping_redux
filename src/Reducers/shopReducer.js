@@ -25,5 +25,4 @@ function changeInventory(state, id, product, operation, payload) {
   return [...restState, { ...product, inventory: newInv }];
 }
 
-function return_all(items) {}
 export default shopReducer;

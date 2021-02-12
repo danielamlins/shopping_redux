@@ -3,7 +3,6 @@ import { connect } from "react-redux";
 function Products(props) {
   return (
     <ul id="products">
-      {" "}
       Products
       {props.shop.map((product) => {
         let img = require("./Imgs/" + product.img + ".jpg");
@@ -18,8 +17,10 @@ function Products(props) {
                 backgroundSize: "cover",
               }}
             ></div>
-            <div className="infos">{product.title} | {product.price} | x{product.inventory}</div>
-            
+            <div className="infos">
+              {product.title} | {product.price} | x{product.inventory}
+            </div>
+
             <div className="btns">
               <button onClick={(e) => props.addToCart(product.id, product)}>
                 Add to cart
